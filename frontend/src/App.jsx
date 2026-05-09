@@ -5,7 +5,7 @@ import europaClipper from "./assets/europa-clipper-2.jpg";
 import lunarPathfinder from "./assets/lunar-pathfinder.jpg";
 import heroImage from "./assets/hero.png";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "/api/spacecrafts";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8080/api/spacecrafts";
 
 // Map spacecraft names to their respective images
 const getSpacecraftImage = (craftName) => {
