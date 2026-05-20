@@ -66,5 +66,5 @@ jobs:
           context: ./frontend
           push: true
           tags: |
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+            ghcr.io/luisvs27/cicd_pipeline_worksheet_code-frontend:latest
+            ghcr.io/luisvs27/cicd_pipeline_worksheet_code-frontend:${{ github.sha }}
